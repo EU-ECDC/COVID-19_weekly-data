@@ -1,7 +1,7 @@
 The files in this directory are listed below. 
 
 - `COVID_19_weekly_cases_and_deaths_current.csv`: most recent data set of weekly COVID-19 case and death data for all EU/EEA countries
-- `snapshots`: snapshots of the past weekly data.
+- `snapshots`: snapshots of the weekly data including the past and the current weeks.
 - The data columns represent:
      - `location_name`: Name of the country
      - `location`: Country code
