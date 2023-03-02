@@ -10,6 +10,7 @@
 # ECDC General Surveillance and Data  & Modelling Teams
 ###########################################################
 
+
 # Load sensitive configuration. This file should never be committed.
 source('config.R')
 
@@ -75,3 +76,4 @@ tryCatch({
 
 
 send_email(msg = msg, sbj = sbj)
+
