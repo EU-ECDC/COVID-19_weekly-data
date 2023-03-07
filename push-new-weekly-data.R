@@ -40,7 +40,6 @@ tryCatch({
         df <- readxl::read_xlsx(path_S) %>% 
             left_join(df_countries) %>% 
             mutate(location_name = country,
-                   date = year_week,
                    value = weekly_count) %>%
             select(location_name, location, indicator, date, value, source ) 
         
