@@ -41,7 +41,7 @@ tryCatch({
             left_join(df_countries) %>% 
             mutate(location_name = country,
                    value = weekly_count) %>%
-            select(location_name, location, indicator, date, value, source ) 
+            select(location_name, location, indicator, year_week, value, source ) 
         
         
         # Save the files
